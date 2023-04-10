@@ -26,6 +26,7 @@ struct CardFront : View {
                 .resizable()
                 .frame(width: width, height: height)
                 .foregroundColor(.red)
+                .cornerRadius(20)
         }
         .rotation3DEffect(Angle(degrees: degree), axis: (x: 0, y: 1, z: 0))
     }
